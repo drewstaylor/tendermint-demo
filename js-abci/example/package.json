@@ -1,0 +1,15 @@
+{
+  "name": "js-abci-example",
+  "version": "0.0.1",
+  "description": "Javascript ABCI example application",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm install && node app.js"
+  },
+  "dependencies": {
+    "bytebuffer": "^5.0.1",
+    "js-abci": "../",
+    "long": "^3.2.0",
+    "protobufjs": "^6.8.0"
+  }
+}
